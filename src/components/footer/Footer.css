@@ -1,0 +1,15 @@
+.footerContainer {
+  background-color: lightseagreen;
+  position: relative;
+  justify-content: center;
+  padding: 20px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.footerCorporation {
+    color: black;
+    text-align: center;
+    margin: 0;
+}

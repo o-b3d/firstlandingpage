@@ -2,16 +2,18 @@ import './Navbar.css'
 
 export function Navbar() {
   return (
-    <nav>
+    <div className = "navbarContainer">
       <ul>
-        <li>
-          <p>Miami Computer Builders LLC</p>
-          <div className="links">
-          <a id="about" href="#about">About</a>
-          <a id="contact" href="#contact">Contact</a>
+        <li className="navbarList">
+          <p className="corporationName">Miami Computer Builders</p>
+          <div className="about">
+          <a href="#about">About</a>
+          </div>
+          <div className="contact">
+          <a href="#contact">Contact Us</a>
           </div>
         </li>
       </ul>
-    </nav>
+    </div>
   );
 }

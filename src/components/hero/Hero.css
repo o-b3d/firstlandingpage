@@ -1,0 +1,79 @@
+.heroContainer {
+  background-color: whitesmoke;
+}
+
+#h1Header {
+  text-align: center;
+  padding: 10px;
+}
+
+.pSentences {
+  padding: 10px;
+}
+
+.contactButton {
+  color: white;
+  background-color: rgb(0, 179, 255);
+  display: block;
+  padding: 5px;
+  margin: auto;
+}
+
+.heroCard {
+  width: 445px;
+  height: 600px;
+  padding: 5px;
+  box-sizing: border-box;
+  border-style: inset;
+  box-shadow: 12px 6px 2px 1px grey;
+  background-color: whitesmoke;
+}
+
+.heroCardContainer {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#pcTiers {
+  text-align: center;
+}
+
+#specs {
+  border-bottom: solid;
+  font-size: 18px;
+}
+
+#cpuList,
+#hddList,
+#ramList,
+#msrpList {
+  display: flex;
+  justify-content: space-between;
+}
+
+#cpuList,
+#hddList,
+#ramList {
+  border-bottom: dotted;
+  padding: 5px;
+  font-size: 18px;
+}
+
+#msrpList {
+  font-size: 25px;
+  border-top-width: thick;
+  margin-top: 325px;
+  padding: 5px;
+}
+
+.bioContainer {
+  display: flex;
+  padding: 10px;
+}

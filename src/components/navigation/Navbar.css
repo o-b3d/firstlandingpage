@@ -1,24 +1,35 @@
-ul {
-    background-color: lightgray;
+.navbarContainer {
+  background-color: lightgray;
+  position: sticky;
+  left: 0;
+  top: 0;
+  right: 0;
+  padding: 15px;
 }
 
-li {
-    display: flex;
-    list-style: none;
+.navbarList {
+  display: flex;
+  list-style: none;
 }
 
-ul > li > p {
-    display: flex;
-    align-items: center;
-    padding: 0 1rem;
-    justify-content: start;
+.corporationName {
+  padding-left: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 
-.links {
-    color: black;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    flex-grow: 1;
-    padding: 10px;
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-grow: 1;
+  padding-right: 25px;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 45px;
 }
