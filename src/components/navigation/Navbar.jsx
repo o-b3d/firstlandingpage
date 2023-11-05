@@ -7,10 +7,10 @@ export function Navbar() {
         <li className="navbarList">
           <p className="corporationName">Miami Computer Builders</p>
           <div className="about">
-          <a href="#about">About</a>
+          <a href="#bottom">About</a>
           </div>
           <div className="contact">
-          <a href="#contact">Contact Us</a>
+          <a href="mailto:obed@ogtesting.com">Contact Us</a>
           </div>
         </li>
       </ul>

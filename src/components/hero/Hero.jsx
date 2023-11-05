@@ -39,15 +39,33 @@ export function Hero() {
           ramName="16GB DDR5"
           msrpPrice="$999.99"
         />
-
-        <Biocard />
       </div>
+      <Biocard />
     </div>
   );
 }
 
-export function HeroButton({ mailto }) {
-  return <button class="contactButton">Contact us</button>;
+export function HeroButton() {
+  const mouseHoverEnter = (event) => {
+    event.target.style.cursor = "pointer";
+  };
+
+  const mouseHoverLeave = (event) => {
+    event.target.style.cursor = "default";
+  };
+
+  return (
+    <span className="contactButtonContainer">
+    <a
+      className="contactButton"
+      href="mailto:obed@ogtesting.com"
+      onMouseEnter={mouseHoverEnter}
+      onMouseLeave={mouseHoverLeave}
+    >
+      Contact us
+    </a>
+    </span>
+  );
 }
 
 export function HeroCard({

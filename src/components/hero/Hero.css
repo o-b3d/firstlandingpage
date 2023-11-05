@@ -1,38 +1,54 @@
 .heroContainer {
-  background-color: whitesmoke;
+  background: rgb(255, 255, 255);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(126, 255, 250, 1) 50%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  padding: 50px 50px 10px;
 }
 
 #h1Header {
   text-align: center;
   padding: 10px;
+  font-size: 45px;
+  color: orange;
 }
 
 .pSentences {
-  padding: 10px;
+  text-align: center;
+  color: black
+}
+
+.contactButtonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px 2px 10px;
 }
 
 .contactButton {
   color: white;
-  background-color: rgb(0, 179, 255);
-  display: block;
-  padding: 5px;
-  margin: auto;
-}
-
-.heroCard {
-  width: 445px;
-  height: 600px;
-  padding: 5px;
-  box-sizing: border-box;
-  border-style: inset;
-  box-shadow: 12px 6px 2px 1px grey;
-  background-color: whitesmoke;
+  background-color: #007bff;
+  padding: 8px;
+  border-radius: 5px;
 }
 
 .heroCardContainer {
   display: flex;
-  padding: 10px;
-  justify-content: space-between;
+  padding: 10px 10px 30px;
+  justify-content: space-around;
+
+  .heroCard {
+    width: 445px;
+    height: 600px;
+    padding: 15px;
+    box-sizing: border-box;
+    border: 2px solid orange;
+    box-shadow: 12px 6px 2px 1px grey;
+    background-color: white;
+  }
 }
 
 ul {
@@ -43,9 +59,11 @@ ul {
 
 #pcTiers {
   text-align: center;
+  font-size: 25px;
 }
 
 #specs {
+  text-align: center;
   border-bottom: solid;
   font-size: 18px;
 }
@@ -69,11 +87,12 @@ ul {
 #msrpList {
   font-size: 25px;
   border-top-width: thick;
-  margin-top: 325px;
-  padding: 5px;
+  padding: 300px 5px 5px;
 }
 
 .bioContainer {
-  display: flex;
-  padding: 10px;
+  padding: 60px 300px 60px;
+  text-align: center;
+  justify-content: center;
+  background-color: whitesmoke;
 }
