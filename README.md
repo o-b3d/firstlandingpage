@@ -1,3 +1,3 @@
 # First Landing Page
 
-Link to Live Page: [Here]([https://firstlandingpage-lcflsk21n-o-b3ds-projects.vercel.app/](https://firstlandingpage-git-main-o-b3ds-projects.vercel.app/)https://firstlandingpage-git-main-o-b3ds-projects.vercel.app/)
+Link to Live Page: [Here](https://firstlandingpage-lcflsk21n-o-b3ds-projects.vercel.app/](https://firstlandingpage-git-main-o-b3ds-projects.vercel.app/)https://firstlandingpage-git-main-o-b3ds-projects.vercel.app/)
